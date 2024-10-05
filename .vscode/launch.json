@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run mobile app",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/apps/flutter_base_app/lib/main.dart",
+            "cwd": "${workspaceFolder}/apps/flutter_base_app",
+            "flutterMode": "debug"
+        }
+    ]
+}
