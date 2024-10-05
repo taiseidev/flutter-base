@@ -11,9 +11,9 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
+  altive_lints: ^1.10.0
+  custom_lint: ^0.6.4
+  melos: ^3.4.0
 
 flutter:
   uses-material-design: true
