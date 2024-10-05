@@ -11,3 +11,6 @@ build/
 # IDE specific files
 .idea/
 *.iml
+
+# FVM Version Cache
+.fvm/

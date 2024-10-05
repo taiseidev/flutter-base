@@ -21,3 +21,7 @@ command:
 scripts:
   fix:
     run: melos exec -- "dart fix --apply lib"
+  version:
+    run: melos exec -- "flutter --version"
+
+sdkPath: .fvm/flutter_sdk
