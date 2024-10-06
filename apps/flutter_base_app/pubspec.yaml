@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_base_i18n:
+    path: ../../packages/flutter_base_i18n
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:

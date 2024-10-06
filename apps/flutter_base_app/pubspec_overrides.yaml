@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: flutter_base_i18n
+dependency_overrides:
+  flutter_base_i18n:
+    path: ../../packages/flutter_base_i18n
