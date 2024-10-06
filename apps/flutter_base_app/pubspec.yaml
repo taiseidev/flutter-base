@@ -9,10 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_base_i18n:
-    path: ../../packages/flutter_base_i18n
+
   flutter_localizations:
     sdk: flutter
+
+  # packages
+  flutter_base_i18n:
+    path: ../../packages/flutter_base_i18n
+  flutter_base_lints:
+    path: ../../packages/flutter_base_lints
 
 dev_dependencies:
   flutter_test:
