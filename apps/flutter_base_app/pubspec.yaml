@@ -18,10 +18,14 @@ dependencies:
     path: ../../packages/flutter_base_i18n
   flutter_base_lints:
     path: ../../packages/flutter_base_lints
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  riverpod_generator: ^2.4.3
+  build_runner: ^2.4.13
 
 flutter:
   uses-material-design: true
