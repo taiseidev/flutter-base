@@ -15,6 +15,7 @@ extension WidgetRefEx on WidgetRef {
         asyncValueProvider,
         (_, next) async {
           final loadingNotifier = read(loadingNotifierProvider.notifier);
+
           if (next.isLoading) {
             loadingNotifier.show();
             return;

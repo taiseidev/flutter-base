@@ -9,5 +9,5 @@ Future<bool> appStartupService(AppStartupServiceRef ref) async {
 
   await Future.delayed(const Duration(seconds: 3));
 
-  return false;
+  return true;
 }

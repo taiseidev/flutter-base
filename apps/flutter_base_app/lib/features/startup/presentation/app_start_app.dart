@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base_app/core/navigation/app_router.dart';
+import 'package:flutter_base_app/features/home/navigation/routes/home_page_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../core/navigation/app_router.dart';
-import '../../home/navigation/routes/home_page_route.dart';
 import '../application/app_start_app_service.dart';
 
 final class AppStartupWidget extends ConsumerWidget {
@@ -29,11 +29,9 @@ final class _AppStartupDataWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    /// FIXME: AppStartupWidgetのref.listenやaddPostFrameCallbackでgoするとGoRouterが見つからないエラーが発生する
     WidgetsBinding.instance.addPostFrameCallback((_) {
       const HomePageRoute().go(context);
     });
-
     return const Scaffold(
       body: Center(
         child: CircularProgressIndicator(),

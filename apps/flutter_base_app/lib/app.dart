@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'core/providers/loading_notifier.dart';
 import 'core/providers/navigator_key.dart';
 import 'core/providers/scaffold_messenger_key.dart';
-import 'routing/app_router.dart';
+import 'core/navigation/app_router.dart';
 
 final class App extends ConsumerWidget {
   const App({super.key});
