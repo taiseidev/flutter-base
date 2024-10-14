@@ -22,6 +22,7 @@ dependencies:
   riverpod_annotation: ^2.3.5
   go_router: ^14.3.0
   flutter_screenutil: ^5.9.3
+  flutter_launcher_icons: ^0.14.1
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +33,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
